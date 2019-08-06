@@ -1,2 +1,53 @@
+$navbar-inverse-bg: rgba(55, 33, 160, 0.97);
+
+#j_display {
+  background: url(asset-path('images/display.jpg') ) no-repeat;
+  background-size: 100% 100% ;
+  border: 2px solid Gray;
+  text-align: center;
+}
+
+#logo {
+  color: #ffffff;
+}
+#logo:hover{
+  color: #f2d0ff;
+}
+
+#j_text {
+  text-shadow: 0 0 50px #DADADA,
+               0 0 50px #DADADA,
+               0 0 50px #DADADA,
+               0 0 50px #DADADA,
+               0 0 50px #DADADA,
+               0 0 50px #DADADA
+}
+
+.footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  color: #ffffff;
+  border-top: 1px solid #000000;
+  background-color: rgba(55, 33, 160, 0.97);
+}
+
+/*div#j_text {
+  background-color: #ffffff;
+  border: 1px solid black;
+  width: 19vw;
+  opacity: 0.6;
+  filter: alpha(opacity=60); !* For IE8 and earlier *!
+}
+
+div#j_text h1 {
+  margin: 2%;
+  font-weight: bold;
+  color: #000000;
+}*/
+
+
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
