@@ -1,16 +1,16 @@
-<% collections = locals[:collection]
-  if collections.errors.any? %>
+<% #collections = locals[:collection]
+  if collection.errors.any? %>
   <div class="row">
     <div class="col-xs-8 col-xs-offset-2">
       <div class="panel panel-danger">
         <div class="panel-heading">
           <h2 class="panel-title">
-            <%= pluralize(collections.errors.count, "Error") %>
+            <%= pluralize(collection.errors.count, "Error") %>
             prohibited this article from being saved:
           </h2>
           <div class="panel-body">
             <ul>
-              <% collections.errors.full_messages.each do |msg| %>
+              <% collection.errors.full_messages.each do |msg| %>
                 <li><%= msg %></li>
               <% end %>
             </ul>
