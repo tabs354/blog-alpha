@@ -4,7 +4,7 @@ Article.create("title"=>"This a new article", "description"=>"Description for ne
 Article.create("title"=>"This is a title", "description"=>"Yash Description", "user_id"=>3)
 Article.create("title"=>"Sample", "description"=>"Yash this is sample Article", "user_id"=>3)
 Article.create("title"=>"Lorem Ipsum", "description"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat.", "user_id"=>3)
-Article.create("title"=>"Nam eget neque luctus", "description"=>"Nam eget neque luctus, egestas magna rhoncus, ornare tellus. Integer in enim in velit scelerisque sagittis et in metus. Nullam ac vestibulum ipsum, sed placerat nisl. ", "user_id"=>4)
+Article.create("title"=>"Nam eget neque luctus", "description"=>"Nam eget neque luctus, egestas magna rhoncus, ornare tellus. Integer in enim in velit scelerisque sagittis et in metus. Nullam ac vestibulum ipsum, sed placerat nisl. ", "user_id"=>8)
 Article.create("title"=>"Orci varius natoque penatibus", "description"=>"Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin in nisl eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. ", "user_id"=>7)
 Article.create("title"=>"Article", "description"=>"Article With ID", "user_id"=>7)
 Article.create("title"=>"New Article", "description"=>"Article With User IDD", "user_id"=>3)
