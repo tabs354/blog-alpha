@@ -40,6 +40,12 @@ $navbar-inverse-bg: rgba(55, 33, 160, 0.97);
   padding-left: 0;
 }
 
+#category_list {
+  background-color: #ced354;
+  text-transform: uppercase;
+  letter-spacing: -1;
+  font-weight: bold;
+}
 
 #footer-spacing {
   margin-bottom: 40px;
@@ -68,6 +74,10 @@ $navbar-inverse-bg: rgba(55, 33, 160, 0.97);
 .article-meta-details {
   border-top: 1px solid #eaeaea;
   margin-top: 5px;
+}
+
+.input_checkbox input {
+  width: auto !important;
 }
 
 @import "bootstrap-sprockets";
