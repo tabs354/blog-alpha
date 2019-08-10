@@ -16,7 +16,7 @@ namespace :export do
       puts "Category.create(#{category.serializable_hash.delete_if {|key, value| ['created_at','updated_at'].include?(key)}.to_s.gsub(/[{}]/,'')})"
     end
 
-    #Export Category
+    #Export Article Category
     ArticleCategory.order(:id).all.each do |article_catogory|
       puts "ArticleCategory.create(#{article_catogory.serializable_hash.delete_if {|key, value| ['created_at','updated_at'].include?(key)}.to_s.gsub(/[{}]/,'')})"
     end
